@@ -1,0 +1,48 @@
+.nav-contact{
+	display: flex;
+	justify-content: space-between;
+	background: #f1f1f1;
+	padding: 10px;
+
+	color:#808080;
+}
+
+.nav-medium{
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+
+.buscador input{
+	width:600px;
+	height: 30px;
+	background-color: #f1f1f1;
+	border: none;
+	padding: 10px;
+}
+
+.logo img{
+	width: 80px;
+}
+
+.registro{
+	display: flex;
+}
+
+.registro p{
+	padding: 10px;
+}
+
+.nav-bottom{
+	display: flex;
+	background: blue;
+	padding: 10px;
+}
+
+.nav-bottom a{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
