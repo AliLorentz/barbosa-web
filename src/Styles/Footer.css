@@ -1,0 +1,28 @@
+.footer{
+	background: #f1f1f1;
+	display: grid;
+	justify-items:center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 40px;
+	grid-template-areas:"servicios contactos siganos"
+						"ultimo ultimo ultimo";
+
+}
+
+.servicios-foot{
+	grid-area: servicios;
+}
+
+.contacts-foot{
+	grid-area: contactos;
+}
+
+.siganos-foot{
+	grid-area: siganos;
+}
+
+.ultimo{
+	grid-area: ultimo;
+	display: flex;
+	justify-content: space-between;
+}

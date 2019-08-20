@@ -4,6 +4,7 @@ import NavBar from './NavBar.js';
 import Productos from '../Components/Productos.js';
 import ProductoPrecio from '../Components/ProductoPrecio.js';
 import ProductoPeq from '../Components/ProductoPeq.js';
+import Footer from "../Components/Footer.js";
 
 import "../Styles/Home.css";
 
@@ -91,6 +92,8 @@ export default class Home extends React.Component {
 						<ProductoPeq/>
 						<ProductoPeq/>
 					</div>
+
+					<Footer/>
 
 			</div>
 		);
