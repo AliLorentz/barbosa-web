@@ -4,6 +4,7 @@
 
 .principal{
 	margin-top: 160px;
+	overflow: hidden;
 }
 
 .secundario{
@@ -16,4 +17,84 @@
 .secundario h2{
 	font-size: 30px;
 	color: #808080;
+}
+
+.productos-destacados{
+	margin:120px 0 40px 0;
+	text-align: center;
+	font-size: 25px;
+	color: #666666;
+}
+
+.triangulo-verde{
+     width: 0;
+     height: 0;
+     border-right: 200px solid transparent;
+     border-top: 30px solid green;
+     border-left: 200px solid transparent;
+     border-bottom: 100px solid transparent;
+     margin: -25px 0 -80px 0;
+}
+
+.triangulo-azul{
+     width: 0;
+     height: 0;
+     border-right: 200px solid transparent;
+     border-top: 30px solid #2A2A72;
+     border-left: 200px solid transparent;
+     border-bottom: 100px solid transparent;
+     margin: -25px 0 -80px 0;
+}
+
+.triangulo-azul-largo{
+     width: 0;
+     height: 0;
+     border-right: 200px solid transparent;
+     border-top: 30px solid #2A2A72;
+     border-left: 200px solid transparent;
+     border-bottom: 100px solid transparent;
+     margin: -25px 0 -80px 0;
+}
+
+.producto{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.informacion{
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.info{
+	width: 500px;
+	text-align: justify;
+	border: 1px solid #808080;
+	border-radius: 10px;
+	color: #666666;
+	padding: 40px;
+}
+
+.info h2{
+	text-align: center;
+}
+
+.mapa{
+	color: #666666;
+	text-align: center;
+}
+
+.productos-varios{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.titulo{
+	text-align: center;
+	color: #808080;
+	border-bottom: 1px solid #909090;
+	margin:120px 0 40px 0;
 }

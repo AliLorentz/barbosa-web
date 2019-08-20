@@ -1,0 +1,17 @@
+.producto{
+	width: 30%;
+	text-align: center;
+}
+
+.producto img{
+	width: 100%;
+}
+
+.producto h3{
+	color:#666666;
+}
+
+.producto p{
+	color:#C12626;
+	margin-top: -10px;
+}

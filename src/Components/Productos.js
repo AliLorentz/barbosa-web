@@ -1,5 +1,5 @@
 import React from 'react';
-import imgProducto from '../imagen/1.png';
+import imgProducto from '../imagen/5.png';
 
 import "../Styles/productos.css";
 
@@ -18,7 +18,7 @@ export default class Productos extends React.Component {
 
 				<div className="precio">
 					<h3 className="precio-producto">87,26$</h3>
-					<input type="text" placeholder="1" className="cantidad-productos"/>
+					<input type="number" placeholder="1" className="cantidad-productos"/>
 					<button className="comprar">Adicionar al carrito</button>
 
 				</div>
