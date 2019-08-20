@@ -1,12 +1,21 @@
 .footer{
 	background: #f1f1f1;
 	display: grid;
-	justify-items:center;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 40px;
+	grid-template-columns: 40% 1fr 15%;
+	grid-template-rows: 1fr 20px;
 	grid-template-areas:"servicios contactos siganos"
 						"ultimo ultimo ultimo";
+	padding: 20px 10px 30px 10px;
+	grid-column-gap: 10px;
+	color:#666666;
 
+}
+
+.footer .titulo-foot{
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #444444;
+	border-bottom: 1px solid #909090;
 }
 
 .servicios-foot{

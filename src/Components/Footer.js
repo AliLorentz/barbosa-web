@@ -5,13 +5,13 @@ export default class Footer extends React.Component {
 		return (
 			<div className="footer">
 				<div className="servicios-foot">
-					<p>Otros servicios</p>
+					<p className="titulo-foot">Otros servicios</p>
 					<p>>Servicio de entrega</p>
 					<p>>Servicio de entrega</p>
 				</div>
 
 				<div className="contacts-foot">
-					<p>Contactenos</p>
+					<p className="titulo-foot">Contactenos</p>
 					<p>San Cristobal,Lda</p>
 					<p>entrada de la luz 136A,1600-162 S/C</p>
 					<p>+58 4247178713</p>
@@ -19,13 +19,14 @@ export default class Footer extends React.Component {
 				</div>
 
 				<div className="siganos-foot">
-					<p>Siganos</p>
+					<p className="titulo-foot">Siganos</p>
 					<p>F</p>
-					<p>Novedades</p>
+					<p className="titulo-foot">Novedades</p>
+					<input type="text" placeholder="Correo"/>
 				</div>
 
 				<div className="ultimo">
-					<p>Copyright</p>
+					<p>Copyright 2019 creado por GoatDesigns, Ningun derecho reservado</p>
 					<p>soy LOGO XD</p>
 				</div>
 			</div>
