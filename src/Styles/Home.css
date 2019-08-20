@@ -1,0 +1,19 @@
+.home{
+	height: 4000px;
+}
+
+.principal{
+	margin-top: 160px;
+}
+
+.secundario{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.secundario h2{
+	font-size: 30px;
+	color: #808080;
+}

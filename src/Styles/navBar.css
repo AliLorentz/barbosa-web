@@ -3,8 +3,31 @@
 	justify-content: space-between;
 	background: #f1f1f1;
 	padding: 10px;
-
 	color:#808080;
+}
+
+.nav{
+	width: 100%;
+	display: block;
+	position: fixed;
+}
+
+.nav-left{
+	animation: .2s transition ease-in forwards;
+	width: 100%;
+	display: block;
+	position: fixed;
+}
+
+@keyframes transition{
+	0%{
+		margin-top: 0px;
+	}
+	100%{
+		color: white;
+		margin-top: -40px;
+		background: #2A2A72;
+	}
 }
 
 .nav-medium{
@@ -35,7 +58,7 @@
 
 .nav-bottom{
 	display: flex;
-	background: blue;
+	background: #2A2A72;
 	padding: 10px;
 }
 
