@@ -4,7 +4,9 @@
 	background: #f1f1f1;
 	padding: 10px;
 	color:#808080;
+	font-size: 12px;
 }
+
 
 .nav{
 	width: 100%;
@@ -50,22 +52,65 @@
 
 .registro{
 	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.registro i{
+	font-size: 30px;
+	padding-top: 20px;
 }
 
 .registro p{
-	padding: 10px;
+	margin-top: -1px;
+	text-align: center;
+}
+
+.carrito{
+	margin-left: 20px;
+	position: relative;
+}
+
+
+.carrito:after{
+	content:"0";
+	background:#3dbc2e;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 10px;
+	right: -5px;
+	border-radius: 100%;
+	color: white;
+	font-size: 11px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .nav-bottom{
 	display: flex;
 	background: #2A2A72;
-	padding: 10px;
+	height: 30px;
 }
 
+.nav-bottom .casa{
+	background: green;
+	margin-left: 40px;
+}
+
+
 .nav-bottom a{
+	font-weight: bold;
+	padding: 5px;
 	color: white;
 	text-decoration: none;
-	margin-left: 20px;
+	
 	border-left: 1px solid black;
 	padding-left: 10px;
+}
+
+.nav-bottom a:hover{
+	color: #000;
+	background: white;
 }

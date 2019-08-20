@@ -93,6 +93,15 @@ export default class Home extends React.Component {
 						<ProductoPeq/>
 					</div>
 
+					<div className="redes-inst">
+						<h4>SIGUENOS</h4>
+						<h2>INSTAGRAM</h2>
+						<div className="imagenes-inst">
+							<img src={bannSec1} alt="bannerSecundario"/>
+							<img src={bannSec2} alt="bannerSecundario"/>
+							<img src={bannSec1} alt="bannerSecundario"/>
+						</div>
+					</div>
 					<Footer/>
 
 			</div>

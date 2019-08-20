@@ -2,7 +2,16 @@
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 20px;
+	padding: 20px;
+	margin:0 30px 0 30px;
 
+}
+
+.productos:hover{
+	border-radius: 10px;
+-webkit-box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.75);
+box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.75);
 }
 
 .nombre-producto{
@@ -49,3 +58,11 @@
 	height: 40px;
 }
 
+.guia-producto i{
+	color: #666666;
+	margin:10px 0 0 10px;
+}
+
+.guia-producto i:hover{
+	color: black;
+}

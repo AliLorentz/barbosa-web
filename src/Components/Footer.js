@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
 
 				<div className="siganos-foot">
 					<p className="titulo-foot">Siganos</p>
-					<p>F</p>
+					<p><i class="fab fa-facebook-f"></i></p>
 					<p className="titulo-foot">Novedades</p>
 					<input type="text" placeholder="Correo"/>
 				</div>

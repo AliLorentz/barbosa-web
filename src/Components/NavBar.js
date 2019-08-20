@@ -32,10 +32,13 @@ export default class NavBar extends React.Component {
 
 				<div className="nav-contact">
 					<div className="contact-left">
-						facebook | contact
+						<i className="fab fa-facebook-f"></i> &nbsp; <i className="fab fa-twitter"></i>
+						&nbsp; <i className="fab fa-instagram"></i> &nbsp;
+						| contact
 					</div>
 					<div className="contact-right">
-						lista de deseso(0) | comparar(0)
+						<i className="fa fa-heart"></i> &nbsp; Lista de deseso(0) | &nbsp;
+						 <i className="fa fa-random"></i> &nbsp;Comparar(0)
 					</div>
 				</div>
 
@@ -49,18 +52,24 @@ export default class NavBar extends React.Component {
 							<input type="text" placeholder="Que estas buscando?"/>
 						</div>
 						<div className="registro">
-							<p>ENTRAR</p>
-							<p>REGISTRO</p>
+							<div className="entrar">
+								<i className="fa fa-user fa-fw icon"></i>
+								<p>Entrar</p>
+							</div>
+							<div className="carrito">
+								<i className="fa fa-shopping-bag fa-fw icon"></i>
+								<p>Entrar</p>
+							</div>
 						</div>
 					</div>
 
 
 					<div className="nav-bottom">
-						<a href="">CASA</a>
-						<a href="">EQUIPAMIENTO</a>
-						<a href="">PESCA</a>
-						<a href="">HERRAMIENTAS</a>
-						<a href="">UN ECTERA XD</a>
+						<a className="casa" href="/"><i className="icon fa fa-home cbp-mainlink-icon"></i></a>
+						<a href="/">EQUIPAMIENTO</a>
+						<a href="/">PESCA</a>
+						<a href="/">HERRAMIENTAS</a>
+						<a href="/">UN ECTERA XD</a>
 					</div>
 				</div>
 			</div>

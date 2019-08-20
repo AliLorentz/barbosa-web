@@ -20,7 +20,12 @@ export default class Productos extends React.Component {
 					<h3 className="precio-producto">87,26$</h3>
 					<input type="number" placeholder="1" className="cantidad-productos"/>
 					<button className="comprar">Adicionar al carrito</button>
-
+					<div className="guia-producto">
+							<i className="fa fa-heart"></i>
+							<i className="fa fa-random"></i>
+							<i className="fa fa-eye"></i>
+					</div>
+				
 				</div>
 			</div>
 		);
