@@ -1,0 +1,39 @@
+.productos{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 140px;
+}
+
+.nombre-producto{
+	color:#666666;
+	font-size: 18px;
+}
+
+.id-producto{
+	color:#808080;
+	font-size: 12px;
+	margin-top: -15px;
+}
+
+.descripcion-producto{
+	color:#666666;
+	font-size: 15px;
+}
+
+.disponibilidad{
+	background: green;
+	color: white;
+	padding: 1px;
+	width: 90px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.precio-producto{
+	color:#C12626;
+}
+
+.cantidad-productos{
+	width: 40px;
+	text-align: center;
+}
