@@ -1,0 +1,25 @@
+.producto-pequeno{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:270px;
+}
+
+.producto-pequeno img{
+	width: 40%;
+}
+
+.producto-pequeno .Descripcion{
+	width: 60%;
+}
+
+.producto-pequeno .Descripcion h4{
+	color: #666666;
+}
+
+.producto-pequeno .Descripcion p{
+	color: #C12626;
+	margin-top: -20px;
+
+}
+

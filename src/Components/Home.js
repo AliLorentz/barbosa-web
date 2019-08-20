@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './NavBar.js';
 import Productos from '../Components/Productos.js';
 import ProductoPrecio from '../Components/ProductoPrecio.js';
+import ProductoPeq from '../Components/ProductoPeq.js';
 
 import "../Styles/Home.css";
 
@@ -74,6 +75,21 @@ export default class Home extends React.Component {
 						<ProductoPrecio/>
 						<ProductoPrecio/>
 						<ProductoPrecio/>
+					</div>
+
+					<h3 className="titulo-pequenos">FILTROS DE ARMAS</h3>
+					<div className="productos-pequenos">
+						<ProductoPeq/>
+						<ProductoPeq/>
+						<ProductoPeq/>
+						<ProductoPeq/>
+					</div>
+					<h3 className="titulo-pequenos-2">CORTA TUBOS</h3>
+					<div className="productos-pequenos">
+						<ProductoPeq/>
+						<ProductoPeq/>
+						<ProductoPeq/>
+						<ProductoPeq/>
 					</div>
 
 			</div>

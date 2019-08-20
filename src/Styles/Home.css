@@ -98,3 +98,22 @@
 	border-bottom: 1px solid #909090;
 	margin:120px 0 40px 0;
 }
+
+.titulo-pequenos{
+	text-align: center;
+	color: #808080;
+	margin:100px 0 0 0;
+}
+
+.titulo-pequenos-2{
+	text-align: center;
+	color: #808080;
+	margin:10px 0 0 0;
+}
+
+.productos-pequenos{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
