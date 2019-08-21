@@ -12,8 +12,8 @@ import bannerPrincipal from "../imagen/banner - principal.png";
 import bannSec1 from "../imagen/1.png";
 import bannSec2 from "../imagen/2.png";
 import Mapa from "../imagen/soyElMapa.png";
-export default class Home extends React.Component {
 
+export default class Home extends React.Component {
 	render() {
 		return (
 			<div className="home">

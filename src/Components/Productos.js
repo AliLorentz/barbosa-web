@@ -4,6 +4,25 @@ import imgProducto from '../imagen/5.png';
 import "../Styles/productos.css";
 
 export default class Productos extends React.Component {
+		constructor(props) {
+		super(props);
+		this.state={
+			nav:"modal"
+		}
+	}
+
+	agregarModal =()=>{
+		this.setState({
+			nav:"modal-active"
+		})
+	};
+
+	quitarModal = () =>{
+		this.setState({
+			nav:"modal"
+		})
+	}
+
 	render() {
 		return (
 			<div className="productos">
@@ -23,10 +42,14 @@ export default class Productos extends React.Component {
 					<div className="guia-producto">
 							<i className="fa fa-heart"></i>
 							<i className="fa fa-random"></i>
-							<i className="fa fa-eye"></i>
+							<i  onClick={this.agregarModal} className="fa fa-eye"></i>
 					</div>
-				
 				</div>
+
+				<div className={this.state.nav}>
+					<div onClick={this.quitarModal}>Hola</div>
+				</div>
+
 			</div>
 		);
 	}

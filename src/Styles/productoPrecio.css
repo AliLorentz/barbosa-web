@@ -1,6 +1,7 @@
 .producto{
 	width: 30%;
 	text-align: center;
+	padding: 5px;
 }
 
 .producto img{
@@ -15,3 +16,22 @@
 	color:#C12626;
 	margin-top: -10px;
 }
+
+.guia-producto-presentacion{
+	background: white;
+	margin-top: -15px;
+}
+
+.guia-producto-presentacion i{
+	cursor: pointer;
+	margin: 10px;
+	color: #666666;
+}
+
+.producto:hover{
+border-radius: 10px;
+-webkit-box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.35);
+-moz-box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.35);
+box-shadow: 3px 13px 52px -8px rgba(0,0,0,0.35);
+}
+
