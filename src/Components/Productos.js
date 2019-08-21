@@ -46,8 +46,19 @@ export default class Productos extends React.Component {
 					</div>
 				</div>
 
+
+
 				<div className={this.state.nav}>
-					<div onClick={this.quitarModal}>Hola</div>
+					<div className="img-modal">
+						<img src={imgProducto} alt="imagen producto"/>
+					</div>
+					<div className="info-modal">
+						<h2>MANOMETRO ANALOGICO ANALISADOR 2 VIAS R410A VMG-2-R410A-02
+						 DIAMETRO 80mm, PRESSÃO 0psi~800psi -30psi~500psi, CONEXÃO 1/4", MANG</h2>
+						 <p>Referência  0043.05.0001</p>
+						 <p className="precio-modal">87,26 €</p>
+					</div>
+					<div className="quitarModal" onClick={this.quitarModal}>X</div>
 				</div>
 
 			</div>
